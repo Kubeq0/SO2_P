@@ -1,0 +1,1 @@
+To jest projekt z Systemów Operacyjnych 2
