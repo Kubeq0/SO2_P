@@ -5,7 +5,7 @@
 #include "Philosopher.hpp"
 
 bool Philosopher::debug = false;
-bool Philosopher::random = true;
+bool Philosopher::random = false;
 
 Philosopher::Philosopher(int id, mutex& left, mutex& right, mutex& output): id(id), leftFork(left), rightFork(right), output(output){}
 
