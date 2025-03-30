@@ -31,6 +31,7 @@ void table(vector<unique_ptr<Philosopher>>& philosophers){
 }
 
 int main(int argc, char* argv[]) {
+    //random generator
     srand(time(0));
     //standard number of philosophers
     int NO_PHILOSOPHERS = 5;
