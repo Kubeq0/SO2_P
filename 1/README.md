@@ -1,11 +1,11 @@
 <div align="justify">
 
-# Instrukcja uruchomienia
+# 🚀 Instrukcja uruchomienia
 Program uruchamiany jest za pomocą pliku wykonywalnego SO2_1.exe
 ```
 ./SO2_1.exe [liczba filozofów] [-d]
 ```
-- `liczba filozofów` - dowolna liczba całkowita z przedziału <2, `MAX_INT`>, określa liczbę siedzących przy stole filozofów, domyślna wartość = 5,
+- `liczba filozofów` - dowolna liczba całkowita z przedziału <2, `MAX_INT-1`>, określa liczbę siedzących przy stole filozofów, domyślna wartość = 5,
 - `-d` - flaga oznaczająca tryb tekstowy, wtedy za każdym razem gdy filozof zmienia swój stan informuje to w terminalu (albo myśli, albo je)  
 
 # 📌 Opis problemu
