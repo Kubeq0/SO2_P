@@ -1,0 +1,8 @@
+# ninja log v5
+11	814	7650445874574368	CMakeFiles/SO2_1.dir/Philosopher.cpp.obj	adcaded4db5cfdf2
+1	483	7650446028837051	build.ninja	196a24d11a443770
+1131	1709	7650445883410784	SO2_1.exe	e6c96b694f8475ff
+4	1131	7650445877713416	CMakeFiles/SO2_1.dir/main.cpp.obj	a6c5ccb39baa341a
+11	846	7650470717883697	CMakeFiles/SO2_1.dir/Philosopher.cpp.obj	adcaded4db5cfdf2
+4	1133	7650470720733900	CMakeFiles/SO2_1.dir/main.cpp.obj	a6c5ccb39baa341a
+1134	1746	7650470726764991	SO2_1.exe	e6c96b694f8475ff

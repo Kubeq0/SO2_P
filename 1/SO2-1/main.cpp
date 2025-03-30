@@ -40,7 +40,10 @@ int main(int argc, char* argv[]) {
         if(x.compare("-d")==0){
             Philosopher::debug = true;
         }else{
-        NO_PHILOSOPHERS = stoi(argv[1]);
+            NO_PHILOSOPHERS = stoi(argv[1]);
+            if(NO_PHILOSOPHERS<=1){
+                NO_PHILOSOPHERS = 5;
+            }
         }
         if(argc > 2){
             for(int i=2;i<argc;i++){
