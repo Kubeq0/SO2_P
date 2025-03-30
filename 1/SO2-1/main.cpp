@@ -51,6 +51,8 @@ int main(int argc, char* argv[]) {
                 string x = argv[i];
                 if(x.compare("-d")==0){
                     Philosopher::debug = true;
+                }else if(x.compare("-r")==0){
+                    Philosopher::random = true;
                 }
             }
         }

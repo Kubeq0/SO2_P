@@ -4,7 +4,8 @@
 
 #include "Philosopher.hpp"
 
-bool Philosopher::debug=false;
+bool Philosopher::debug = false;
+bool Philosopher::random = true;
 
 Philosopher::Philosopher(int id, mutex& left, mutex& right, mutex& output): id(id), leftFork(left), rightFork(right), output(output){}
 
@@ -14,7 +15,11 @@ void Philosopher::think() {
         lock_guard<mutex> out(output);
         cout<<"Philosopher "<<this->id<<" is thinking\n";
     }
-    this_thread::sleep_for(chrono::milliseconds(10+rand()%1000));
+    if(random) {
+        this_thread::sleep_for(chrono::milliseconds(10 + rand() % 1000));
+    }else{
+        this_thread::sleep_for(chrono::milliseconds(500));
+    }
 }
 
 int Philosopher::get_id() {
@@ -30,7 +35,11 @@ void Philosopher::eat() {
         lock_guard<mutex> out(output);
         cout << "Philosopher " << this->id << " is eating\n";
     }
-    this_thread::sleep_for(chrono::milliseconds(10+rand()%1000));
+    if(random) {
+        this_thread::sleep_for(chrono::milliseconds(10 + rand() % 1000));
+    }else{
+        this_thread::sleep_for(chrono::milliseconds(500));
+    }
     increment_meals();
 }
 

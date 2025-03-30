@@ -3,10 +3,11 @@
 # 🚀 Instrukcja uruchomienia
 Program uruchamiany jest za pomocą pliku wykonywalnego SO2_1.exe
 ```
-./SO2_1.exe [liczba filozofów] [-d]
+./SO2_1.exe [liczba filozofów] [-d] [-r]
 ```
 - `liczba filozofów` - dowolna liczba całkowita z przedziału <2, `MAX_INT-1`>, określa liczbę siedzących przy stole filozofów, domyślna wartość = 5,
-- `-d` - flaga oznaczająca tryb tekstowy, wtedy za każdym razem gdy filozof zmienia swój stan informuje to w terminalu (albo myśli, albo je)  
+- `-d` - flaga oznaczająca tryb tekstowy, wtedy za każdym razem gdy filozof zmienia swój stan informuje to w terminalu (albo myśli, albo je)
+- `-r` - flaga oznaczająca tryb losowy, oznacza to, że czas jedzenia i myślenia jest za każdym razem inny dla iteracji wątku, oraz dla każdego filozofa, brak tej flagi oznacza stałą i jednakową długość jedzenia/myślenia dla każdego z filozofów.
 
 # 📌 Opis problemu
 Problem jedzących filozofów to klasyczne zagadnienie z zakresu programowania

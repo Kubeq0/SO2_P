@@ -27,6 +27,7 @@ private:
 public:
     Philosopher(int id, mutex& left, mutex& right, mutex& output);
     static bool debug;      //enables command prompts
+    static bool random;     //enables random times of thinking and eating
     void problem();         //philosophers' thread function
     int get_meals();        //returns number of meals eaten
     int get_id();           //returns personal id
