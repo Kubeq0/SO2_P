@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/jakub/CLionProjects/SO2-1
+# Install script for directory: C:/Users/jakub/CLionProjects/SO2_P/1/SO2-1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SO2_1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SO2_P")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jakub/CLionProjects/SO2-1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jakub/CLionProjects/SO2_P/1/SO2-1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
