@@ -14,7 +14,7 @@ void Philosopher::think() {
         lock_guard<mutex> out(output);
         cout<<"Philosopher "<<this->id<<" is thinking\n";
     }
-    this_thread::sleep_for(chrono::milliseconds(500));
+    this_thread::sleep_for(chrono::milliseconds(10+rand()%1000));
 }
 
 int Philosopher::get_id() {
@@ -30,7 +30,7 @@ void Philosopher::eat() {
         lock_guard<mutex> out(output);
         cout << "Philosopher " << this->id << " is eating\n";
     }
-    this_thread::sleep_for(chrono::milliseconds(500));
+    this_thread::sleep_for(chrono::milliseconds(10+rand()%1000));
     increment_meals();
 }
 

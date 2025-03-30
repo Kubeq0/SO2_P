@@ -17,7 +17,7 @@ using namespace std;
 void table(vector<unique_ptr<Philosopher>>& philosophers){
     while(true){
         //wait
-        this_thread::sleep_for(chrono::milliseconds(2));
+        this_thread::sleep_for(chrono::milliseconds(4));
         //clear terminal
         system(CLEAR);
 
@@ -31,6 +31,7 @@ void table(vector<unique_ptr<Philosopher>>& philosophers){
 }
 
 int main(int argc, char* argv[]) {
+    srand(time(0));
     //standard number of philosophers
     int NO_PHILOSOPHERS = 5;
 
