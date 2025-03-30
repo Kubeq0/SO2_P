@@ -68,4 +68,10 @@ Sekcje krytyczne są zabezpieczone za pomocą `std::mutex` i `std::lock_guard`, 
 
 Deadlock jest unikany poprzez zapewnienie jednego "leworęcznego" filozofa.
 
+# 🎵 Inne
+
+Specjalne podziękowania dla playlisty towarzyszącej powstawaniu projektu:
+
+- https://open.spotify.com/playlist/31BrGLteIEkETsqKOQBMD6?si=0347cc8676714079
+
 </div>
